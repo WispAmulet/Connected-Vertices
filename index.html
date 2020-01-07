@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <label for="control">
+        <input
+          type="range"
+          name="control"
+          id="control"
+          min="1"
+          max="7"
+          step="1"
+          value="1"
+        />
+      </label>
+      <section>
+        <p class="display hide">Draw a few particles</p>
+        <p class="display hide">Calculate the distance between all particles</p>
+        <p class="display hide">
+          Draw a line if the distance is below 250px between two particles
+        </p>
+        <p class="display hide">Fade the lines based on the distance</p>
+        <p class="display hide">Use random radii</p>
+        <p class="display hide">Add more particles</p>
+        <p class="display hide">Add user interactivity for more fun</p>
+      </section>
+    </div>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
